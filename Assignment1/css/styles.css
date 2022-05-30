@@ -11,3 +11,24 @@ div {
     float:left;
     padding: 10px 10px 5px 5px;
 }
+
+@media screen and (max-width:624px) {
+    div{
+        max-width:700px;
+    }
+    
+}
+
+@media screen and (max-width:500px) {
+    div{
+        font-size: 16px;
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+    footer{
+        display: none;
+    }
+    
+}
