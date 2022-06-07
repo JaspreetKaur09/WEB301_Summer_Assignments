@@ -3,7 +3,24 @@ html, body{
     padding: 0;
 }
 
-@media only screen and (max-width:600px) {
+
+
+
+@media only screen and (min-width:600px) {
+    .landscapepic{
+        display: block;
+    }
+    .portraitpic{
+        display: none;
+    }
+
+    
+}
+
+@media screen and (max-width:600px) {
+    .portraitpic{
+        display: block;
+    }
     .landscapepic{
         display: none;
     }
