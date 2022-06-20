@@ -1,0 +1,40 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+.grid{
+    max-width: 1500px;
+    margin: 16px;
+    margin: 0 auto;
+    border: 1px solid plum;
+    box-sizing: border-box;
+}
+
+
+[class*="col-"]{
+    float: left;
+    padding: 70px;
+    text-align: center;
+    border:1px solid plum;
+    box-sizing: border-box;
+}
+
+row::after{
+    content: "";
+    clear: both;
+    display: table;
+    margin: 0 0 10px 0;
+}
+
+.col-1 {width: calc(100% / 12);}
+.col-2 {width: calc(4*(100% / 8));}
+.col-3 {width: calc(100% / 4);}
+.col-4 {width: calc(100% / 3);}
+.col-5 {width: calc(5 *(100% / 12));}
+.col-6 {width: calc(3*(100% / 12));}
+.col-7 {width: calc(3*(100% / 12));}
+.col-8 {width: calc(100% / 5);}
+.col-9 {width: calc(100% / 10);}
+.col-10 {width: calc(100% / 12);}
+.col-11 {width: 100% }
