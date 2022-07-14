@@ -17,5 +17,16 @@ $(function (){
     function showError(error){
       $('#error').text("Location permission denied");
     }
+
+    $("#btnP").on("click", function () {
+      getCurrentLocation();
+    });
+    $("#btnSubmit").on("click", function () {
+      localStorage.setItem("firstname", $("#firstname").val());
+      localStorage.setItem("lastname", $("#lastname").val());
+      localStorage.setItem("longitude", $("#longitude").val());
+      localStorage.setItem("latitude", $("#latitude").val());
+      $('#success').text("Information submitted successfully");
+    });
   }
 });
