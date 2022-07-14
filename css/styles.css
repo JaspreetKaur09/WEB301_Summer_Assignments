@@ -2,3 +2,16 @@ html, body{
     margin: 0;
     padding: 0;
 }
+
+::placeholder{
+    color: white;
+}
+
+@media  screen and (max-width: 700px) {
+    ::placeholder{
+        color: black;
+    }
+    table{
+        width: 100%;
+    }   
+}
