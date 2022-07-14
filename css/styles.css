@@ -13,5 +13,12 @@ html, body{
     }
     table{
         width: 100%;
-    }   
+    }
+    label{
+        color: white;
+    }
+    input{
+        width: 100%;
+    }
+
 }
