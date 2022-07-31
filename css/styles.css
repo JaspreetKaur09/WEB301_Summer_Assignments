@@ -2,3 +2,32 @@ html, body{
     margin: 0;
     padding: 0;
 }
+
+.container
+{
+    padding:50px;
+}
+.text-img
+{
+font-size:20px !important;
+color:white;
+font-weight:500;
+
+}
+
+.d-block
+{
+height:600px !important;
+width:100% !important;
+}
+.carousel-heading
+{
+font-weight:700;
+color:white;
+font-size:30px;
+}
+.carousel-indicators
+{
+max-width: 768px !important;
+
+}
